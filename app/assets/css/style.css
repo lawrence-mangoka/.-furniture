@@ -1,0 +1,31 @@
+.container-fluid-1 {
+    background-image: url("/app/assets/hero-img.png");
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    left: 20px;
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    ;
+}
+
+@media only screen and (max-width:528px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    ;
+}
+
+@media only screen and (max-width:360px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    ;
+}
